@@ -6,19 +6,14 @@
   </div>
 
   <div class="card-body">
-    <h3 class="card-title">Superhero Name:  <%=@superhero_name %></h3>
-    <div class="card-text">
-        <h5> Superhero Power:  <%= @superhero_power.titleize %> </h5>
-        <h5> Day Job:  <%= @corp_job_title.titleize %> </h5>
-        <h5> Job Power:  <%= @corp_super_power.titleize %> </h5>
-        <h5> Avatar URL:  <%= @avatar_url %> </h5>
-        <img src="<%= @avatar_url %>"
+    <br />
 
-    </div>
+    <br />
+
   </div>
 
   <div class="card-footer">
-    <%= link_to "Click here to create a new team of superheros", root_path %>
+    <%= link_to "Click here to create a new team of superheros", home_team_path %>
   </div>
 
 </div>

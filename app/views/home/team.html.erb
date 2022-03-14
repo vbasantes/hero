@@ -1,2 +1,14 @@
-<h1>Create a Super Hero Team!</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+
+
+<div class="card">
+
+  <% if @team_number > 0 %>
+    <%= render "home/show_team" %>
+  <% else %>
+    <%= render "home/create_team" %>
+  <% end %>
+
+  <div class="card-footer">
+  </div>
+
+</div>
